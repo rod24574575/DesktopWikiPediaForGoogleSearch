@@ -28,7 +28,7 @@
     // Only for chrome.
     const pingAttribute = anchorElement.getAttribute('ping');
     if (pingAttribute) {
-      anchorElement.setAttribute('ping', replaceWiki(pingAttribute));  
+      anchorElement.setAttribute('ping', replaceWiki(pingAttribute));
     }
 
     const citeText = anchorElement.querySelector('cite')?.firstChild;
