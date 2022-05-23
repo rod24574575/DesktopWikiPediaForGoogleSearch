@@ -37,6 +37,6 @@
     }
 
     // Bypass google's link redirection warning.
-    anchorElement.removeAttribute('data-jsarwt', '');
+    anchorElement.removeAttribute('data-jsarwt');
   }
 })();
