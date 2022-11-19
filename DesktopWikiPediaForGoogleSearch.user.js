@@ -3,8 +3,10 @@
 // @namespace       DesktopWikiPediaForGoogleSearch
 // @description     Replace the google search reesult of wikipedia from mobile to desktop.
 // @version         0.1.0
+// @license         MIT
 // @author          rod24574575
 // @homepageURL     https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch
+// @supportURL      https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch/issues
 // @include         /^https://[^/]*google.com[^/]*/search.*$/
 // @run-at          document-idle
 // ==/UserScript==
