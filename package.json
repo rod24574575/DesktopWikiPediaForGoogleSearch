@@ -1,0 +1,27 @@
+{
+  "name": "desktop-wiki-pedia-for-google-search",
+  "version": "0.1.0",
+  "description": "Replace the google search reesult of wikipedia from mobile to desktop",
+  "keywords": [
+    "userscript"
+  ],
+  "homepage": "https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch",
+  "bugs": "https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch/issues",
+  "license": "MIT",
+  "author": "rod24574575 <rod24574575@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch.git"
+  },
+  "scripts": {
+    "bump": "bump package.json DesktopWikiPediaForGoogleSearch.user.js -c -a -t",
+    "lint": "eslint .",
+    "preversion": "npm run lint",
+    "version": "npm install"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "version-bump-prompt": "^6.1.0"
+  },
+  "private": true
+}
