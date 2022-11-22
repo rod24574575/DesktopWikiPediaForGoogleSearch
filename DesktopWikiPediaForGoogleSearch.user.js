@@ -7,7 +7,7 @@
 // @author          rod24574575
 // @homepageURL     https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch
 // @supportURL      https://github.com/rod24574575/DesktopWikiPediaForGoogleSearch/issues
-// @include         /^https://[^/]*google.com[^/]*/search.*$/
+// @include         /^https://[^/]*google.co[^/]*/search.*$/
 // @run-at          document-idle
 // ==/UserScript==
 
